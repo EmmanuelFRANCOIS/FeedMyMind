@@ -1,14 +1,3 @@
-<style>
-  body {background: #333; color: white;}
-  .snapshots{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-  .snapshots a { display: block; width: 9%; }
-  .snapshots img { width: 100%; }
-</style>
 <h1>Project "<span style="color: #fff">FEED</span><span style="color: #aaa">MY</span><span style="color: #198754">MIND</span>"</h1>
 <p>eCommerce Website dedicated to the selling of cultural goods like books, music, movies and documentaries.</p>
 <p>Although this project is an end of training session fictive project, it shows how it is possible to build a basic eCommerce website without frameworks like Symfony or Laravel, and to implement advanced features built with native languages and technologies.</p>
