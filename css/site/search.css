@@ -1,0 +1,14 @@
+#searchbox {
+  background-color: #FFF;
+  background-image: url(../../images/icons/search_gray.svg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 5px) center;
+  background-size: auto 60%;
+}
+
+#searchresults-container {
+  display: none;
+  position: absolute;
+  z-index: 20;
+}
+/*# sourceMappingURL=search.css.map */

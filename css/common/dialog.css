@@ -1,0 +1,117 @@
+/* The Modal (background) */
+#myModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Modal Content */
+#myModal .modal {
+  display: block;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  max-height: 80%;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  opacity: 0;
+  top: 0px;
+}
+
+/* The Close Button */
+#myModal .close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#myModal .close:hover,
+#myModal .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myModal .header {
+  padding: 7px 20px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 12px 12px 0 0;
+  color: white;
+}
+#myModal .header h3 {
+  font-size: 1.2rem !important;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+#myModal .header span.close {
+  width: 28px;
+  height: 28px;
+  padding: 4px 5px;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 16px !important;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+#myModal .body {
+  display: flex;
+  justify-content: stretch;
+  align-items: top;
+  background-color: #fefefe;
+  color: #333;
+  padding: 20px;
+}
+#myModal .body .icon {
+  margin-right: 40px;
+  background: transparent url(../images/error.svg) no-repeat;
+  background-size: 100%;
+  width: 56px;
+  height: 56px;
+}
+
+#myModal .footer {
+  background-color: #eee;
+  border: 1px solid #eee;
+  color: #333;
+  border-radius: 0 0 12px 12px;
+  padding: 10px 20px;
+  text-align: center;
+}
+#myModal .footer button {
+  padding: 5px 20px;
+  margin: auto;
+  background-color: red;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem !important;
+  line-height: 1;
+  color: white;
+  font-weight: bold;
+}
+
+#myModal.success .header {
+  background-color: green;
+  border: 1px solid green;
+}
+#myModal.success .footer button {
+  background-color: green;
+}
+#myModal.success .body .icon {
+  background: transparent url(../images/success.svg) no-repeat;
+}

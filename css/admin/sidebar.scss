@@ -1,0 +1,96 @@
+/*
+ * ════════════════════════════════════════════════════════════════════════════
+ *                               SIDEBAR Stylesheet
+ * ════════════════════════════════════════════════════════════════════════════
+ */
+
+
+body {
+  .sidebar {
+    display: block;
+    opacity: 0;
+    width: 0;
+    min-height: 100vh;
+    .nav-link {
+      border-radius: 0;
+      text-transform: uppercase;
+      text-align: center;
+      svg {
+        width: 24px;
+        margin-right: 0;
+        height: 1.2rem;
+        padding: 3px 0 3px 0;
+      }
+    }
+  }
+}
+
+
+
+// ────────────────────────────────────────────────────────────────────────────
+//  MEDIA QUERY : SM - Small devices (landscape phones, 576px and up)
+// ────────────────────────────────────────────────────────────────────────────
+@media (min-width: 576px) {
+  body {
+    .sidebar, .afpa {
+      display: block;
+      opacity: 1;
+      width: 90px !important;
+      .nav-link {
+        svg {
+          height: 2rem;
+        }
+        span {
+          font-size: 0.9rem;
+          line-height: 1.1;
+        }
+      }
+    }
+  }
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+//  MEDIA QUERY : MD - Medium devices (tablets, 768px and up)
+// ────────────────────────────────────────────────────────────────────────────
+@media (min-width: 768px) {
+  body {
+    .sidebar, .afpa {
+      width: 220px !important;
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  body {
+    .sidebar, .afpa {
+      width: 300px !important;
+      .nav-link {
+        text-align: left;
+        svg {
+          height: 1.2rem;
+          margin-right: 16px;
+        }
+        span {
+          font-size: 1rem;
+          line-height: 1;
+          text-overflow: ellipsis;
+        }
+      }
+      .nav-link.active {
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  
+}

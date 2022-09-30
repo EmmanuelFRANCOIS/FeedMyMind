@@ -1,0 +1,6 @@
+@media print {
+  .container {
+    max-width: 100% !important;
+  }
+}
+/*# sourceMappingURL=print.css.map */

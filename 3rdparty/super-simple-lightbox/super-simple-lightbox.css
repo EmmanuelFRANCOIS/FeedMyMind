@@ -1,0 +1,54 @@
+/**
+ * Super Simple Lightbox With CSS and jQuery
+ * Codepen : https://codepen.io/tutsplus/pen/BaLVoJa
+ */
+
+#simple_lightbox {
+	z-index: 9999;
+	position:fixed; /* keeps the lightbox window in the current viewport */
+	top:0; 
+	left:0; 
+	width:100vw; 
+	height:100vh; 
+	background-color: rgba(0,0,0,0.9); 
+	text-align: center;
+}
+#simple_lightbox img {
+	position: relative;
+	box-shadow:0 0 25px #111;
+	max-width: 80vw;
+	max-height: 90vh;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+#simple_lightbox .closeBtn {
+	display: inline-block;
+	position: absolute;
+	top: 5vh;
+	width: 32px;
+	height: 32px; 
+	font-size: 24px;
+	line-height: 1;
+	padding: 3px;
+	border: 2px solid white;
+	border-radius: 50%;
+	background: transparent;
+	color: white;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+/* Auto zoom on hover */
+.auto-zoom-hover {
+  overflow: hidden !important;
+}
+.auto-zoom-hover img {
+  width: 100%;
+  height: 100%;
+  transition: transform ease 0.3s;
+}
+.auto-zoom-hover img:hover { 
+	transform: scale(1.2);
+}

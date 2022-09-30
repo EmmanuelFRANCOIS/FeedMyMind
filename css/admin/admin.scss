@@ -1,0 +1,130 @@
+// Import sub-stylesheets
+// (last ones override first ones)
+@import url('header.css');
+@import url('sidebar.css');
+@import url('../common/colors.css');
+
+// Initialize HTML DOCUMENT styles
+:root {
+  font-size: 0.9rem;
+}
+
+// Initialize BODY styles
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-link { color: #333 !important; }
+a.nav-link.active { color: darkorange !important; }
+.bg-dark a.nav-link { color: #ddd !important; }
+.bg-dark a.nav-link.active { color: orange !important; }
+
+
+
+/**
+ * ============================================================================
+ *  Admin Dashboards Style
+ * ============================================================================
+ */
+.tableDashboard {
+  width: 100%;
+  .headerRow { 
+    .headerTable {
+      width: 18%;
+      padding: 10px;
+      font-size: 1.7rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #246;
+      i {
+        font-size: 1.4rem;
+      }
+    }
+    .headerCol,
+    .headerTotal {
+      padding: 10px;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: #246;
+      .headerColBlock {
+        width: 64px;
+        height: 64px;
+        margin: 0 auto;
+        padding-top: 12px;
+        background: #eee; 
+        border-radius: 50%;
+        text-align: center;
+        //border: 5px solid #ccc;
+        i {
+          font-size: 40px;
+        }
+      }
+    }
+    .headerCol {
+      width: 18%;
+    }
+    .headerTotal {
+      width: 10%;
+    }
+  }
+  .headerLeft {
+    padding: 20px 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #246;
+    i {
+      font-size: 1.3rem;
+      padding-right: 10px;
+      width: 32px;
+    }
+  }
+  .dataCol,
+  .dataTotal,
+  .totalRow {
+    padding: 10px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #246;
+    .dataColBlock {
+      display: block;
+      width: 64px;
+      height: 64px;
+      margin: 5px auto;
+      padding-top: 10px;
+      background: #fff; 
+      border-radius: 50%;
+      text-align: center;
+      text-decoration: none;
+      border: 5px solid #bbb;
+      color: #246;
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+  .dataColBlock:hover {
+    background: #246;
+    border: 5px solid #246;
+    color: white;
+  }
+  .dataCol {
+    background: url(../../images/design/table_matrix_cross.svg) 50% 50% no-repeat;
+  }
+  .totalRow {
+    background: url(../../images/design/table_matrix_end_right.svg) 50% 50% no-repeat;
+  }
+  .bottomCol {
+    background: url(../../images/design/table_matrix_end_bottom.svg) 50% 50% no-repeat;
+  }
+  .bottomRightCol {
+    background: url(../../images/design/table_matrix_end_bottom_right.svg) 50% 50% no-repeat;
+  }
+}
+
+

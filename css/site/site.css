@@ -1,0 +1,75 @@
+@import url("../common/colors.css");
+:root {
+  font-size: 0.9rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Adjust Bottstrap form controls colors
+ */
+.text-success-light {
+  color: #23e188 !important;
+}
+
+.nav-link.active:after {
+  content: '';
+  position: relative;
+  top: 30px;
+  left: -50%;
+  width: 0;
+  height: 0;
+  border-top: solid 6px #7bd7ac;
+  border-left: solid 8px transparent;
+  border-right: solid 8px transparent;
+}
+
+.form-check-input:checked {
+  background-color: #198754;
+  border-color: #198754;
+}
+
+.form-range:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #19875440;
+          box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #19875440;
+}
+
+.form-range:focus::-moz-range-thumb {
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem #19875440;
+}
+
+.form-range::-webkit-slider-thumb {
+  background-color: #198754;
+}
+
+.form-range::-webkit-slider-thumb:active {
+  background-color: #1987544d;
+}
+
+.form-range::-webkit-slider-runnable-track {
+  background-color: #dee2e6;
+}
+
+.form-range::-moz-range-thumb {
+  background-color: #198754;
+}
+
+.form-range::-moz-range-thumb:active {
+  background-color: #1987544d;
+}
+
+.form-range::-moz-range-track {
+  background-color: #d6f2e5;
+}
+
+.form-range:disabled::-webkit-slider-thumb {
+  background-color: #adb5bd;
+}
+
+.form-range:disabled::-moz-range-thumb {
+  background-color: #adb5bd;
+}
+/*# sourceMappingURL=site.css.map */

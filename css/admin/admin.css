@@ -1,0 +1,153 @@
+@import url("header.css");
+@import url("sidebar.css");
+@import url("../common/colors.css");
+:root {
+  font-size: 0.9rem;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-link {
+  color: #333 !important;
+}
+
+a.nav-link.active {
+  color: darkorange !important;
+}
+
+.bg-dark a.nav-link {
+  color: #ddd !important;
+}
+
+.bg-dark a.nav-link.active {
+  color: orange !important;
+}
+
+/**
+ * ============================================================================
+ *  Admin Dashboards Style
+ * ============================================================================
+ */
+.tableDashboard {
+  width: 100%;
+}
+
+.tableDashboard .headerRow .headerTable {
+  width: 18%;
+  padding: 10px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #246;
+}
+
+.tableDashboard .headerRow .headerTable i {
+  font-size: 1.4rem;
+}
+
+.tableDashboard .headerRow .headerCol,
+.tableDashboard .headerRow .headerTotal {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #246;
+}
+
+.tableDashboard .headerRow .headerCol .headerColBlock,
+.tableDashboard .headerRow .headerTotal .headerColBlock {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto;
+  padding-top: 12px;
+  background: #eee;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.tableDashboard .headerRow .headerCol .headerColBlock i,
+.tableDashboard .headerRow .headerTotal .headerColBlock i {
+  font-size: 40px;
+}
+
+.tableDashboard .headerRow .headerCol {
+  width: 18%;
+}
+
+.tableDashboard .headerRow .headerTotal {
+  width: 10%;
+}
+
+.tableDashboard .headerLeft {
+  padding: 20px 10px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #246;
+}
+
+.tableDashboard .headerLeft i {
+  font-size: 1.3rem;
+  padding-right: 10px;
+  width: 32px;
+}
+
+.tableDashboard .dataCol,
+.tableDashboard .dataTotal,
+.tableDashboard .totalRow {
+  padding: 10px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #246;
+}
+
+.tableDashboard .dataCol .dataColBlock,
+.tableDashboard .dataTotal .dataColBlock,
+.tableDashboard .totalRow .dataColBlock {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 5px auto;
+  padding-top: 10px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  border: 5px solid #bbb;
+  color: #246;
+}
+
+.tableDashboard .dataCol .dataColBlock i,
+.tableDashboard .dataTotal .dataColBlock i,
+.tableDashboard .totalRow .dataColBlock i {
+  font-size: 40px;
+}
+
+.tableDashboard .dataColBlock:hover {
+  background: #246;
+  border: 5px solid #246;
+  color: white;
+}
+
+.tableDashboard .dataCol {
+  background: url(../../images/design/table_matrix_cross.svg) 50% 50% no-repeat;
+}
+
+.tableDashboard .totalRow {
+  background: url(../../images/design/table_matrix_end_right.svg) 50% 50% no-repeat;
+}
+
+.tableDashboard .bottomCol {
+  background: url(../../images/design/table_matrix_end_bottom.svg) 50% 50% no-repeat;
+}
+
+.tableDashboard .bottomRightCol {
+  background: url(../../images/design/table_matrix_end_bottom_right.svg) 50% 50% no-repeat;
+}
+/*# sourceMappingURL=admin.css.map */

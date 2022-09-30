@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg42343"
+   inkscape:version="1.1.2 (1:1.1+202202050950+0a00cf5339)"
+   sodipodi:docname="avatar_empty.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview42345"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.50457247"
+     inkscape:cx="173.41414"
+     inkscape:cy="561.86181"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs42340" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g46135"
+       transform="matrix(1.0435615,0,0,1.0435615,-3.8111029,5.9105662)"
+       inkscape:export-filename="/home/john/www/mindfood/images/avatar/g46135.png"
+       inkscape:export-xdpi="72.74437"
+       inkscape:export-ydpi="72.74437">
+      <rect
+         style="fill:#e9e9e9;fill-opacity:1;stroke:#b4b4b4;stroke-width:0.436402;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect42426"
+         width="200.31914"
+         height="267.23767"
+         x="4.2384515"
+         y="-4.9217706" />
+      <g
+         id="g46105"
+         transform="matrix(2.1076696,0,0,2.1076696,-99.112443,-125.90398)">
+        <circle
+           style="fill:#e9e9e9;fill-opacity:1;stroke:#ababab;stroke-width:6.36503;stroke-opacity:1"
+           id="path43016"
+           cx="96.557098"
+           cy="120.79742"
+           r="35.277874" />
+        <path
+           style="fill:none;stroke:#ababab;stroke-width:6.01419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 71.59541,146.25853 119.59669,94.376912"
+           id="path44611"
+           sodipodi:nodetypes="cc" />
+      </g>
+    </g>
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;stroke:#b4b4b4;stroke-width:0.455412;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect42426-6"
+       width="209.04533"
+       height="278.87894"
+       x="233.1825"
+       y="0.64112782"
+       inkscape:export-filename="/home/john/www/mindfood/images/avatar/rect42426-6.png"
+       inkscape:export-xdpi="72.74437"
+       inkscape:export-ydpi="72.74437" />
+    <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+    <path
+       d="m 337.8291,138.07769 c 26.44906,0 47.88514,-21.84884 47.88514,-48.798666 0,-26.949829 -21.43608,-48.798665 -47.88514,-48.798665 -26.44909,0 -47.88517,21.848836 -47.88517,48.798665 0,26.949826 21.43608,48.798666 47.88517,48.798666 z m 18.96699,18.2995 h -37.93401 c -35.79789,0 -64.83201,29.58419 -64.83201,66.0688 0,7.29694 5.80608,13.21759 12.9664,13.21759 h 141.67271 c 7.16032,0.0122 12.95891,-5.89777 12.95891,-13.21759 0,-36.48461 -29.03036,-66.0688 -64.832,-66.0688 z"
+       id="path826"
+       style="stroke-width:0.377654;fill:#999999"
+       inkscape:export-filename="/home/john/www/mindfood/images/avatar/rect42426-6.png"
+       inkscape:export-xdpi="72.74437"
+       inkscape:export-ydpi="72.74437" />
+    <rect
+       style="fill:#e9e9e9;fill-opacity:1;stroke:#b4b4b4;stroke-width:0.455412;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect42426-6-5"
+       width="209.04533"
+       height="278.87894"
+       x="-245.79559"
+       y="0.40407139"
+       inkscape:export-filename="/home/john/www/mindfood/images/avatar/rect42426-6.png"
+       inkscape:export-xdpi="72.74437"
+       inkscape:export-ydpi="72.74437" />
+  </g>
+</svg>
