@@ -1,6 +1,10 @@
 <h1>Project "<span style="color: #fff">FEED</span><span style="color: #aaa">MY</span><span style="color: #198754">MIND</span>"</h1>
 <p>eCommerce Website dedicated to the selling of cultural goods like books, music, movies and documentaries.</p>
 <p>Although this project is an end of training session fictive project, it shows how it is possible to build a basic eCommerce website without frameworks like Symfony or Laravel, and to implement advanced features built with native languages and technologies.</p>
+<p>Formation DWWM (Développeur Web & Web Mobile)</p>
+<p>Promotion 2022</p>
+<p>AFPA Hauts-de-France</p>
+
 <h2>Snapshots</h2>
 <div class="snapshots">
   <a href="./snapshots/01 - FeedMyMind - Accueil.png" target="_blank"><img src="./snapshots/01 - FeedMyMind - Accueil.png" alt="FeedMyMind - Accueil" /></a><br /><br />
@@ -14,6 +18,3 @@
   <a href="./snapshots/09 - FeedMyMind - Panier.png" target="_blank"><img src="./snapshots/09 - FeedMyMind - Panier.png" alt="FeedMyMind - Panier" /></a></a><br /><br />
   <a href="./snapshots/10 - FeedMyMind - Commande.png" target="_blank"><img src="./snapshots/10 - FeedMyMind - Commande.png" alt="FeedMyMind - Commande" /></a></a><br /><br />
 </div>
-<h2>Formation DWWM (Développeur Web & Web Mobile)</h2>
-<h2>Promotion 2022</h2>
-<h3>AFPA Hauts-de-France</h3>
