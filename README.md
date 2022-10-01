@@ -5,6 +5,63 @@
 <p>Promotion 2022</p>
 <p>AFPA Hauts-de-France</p>
 
+## MAIN TECHNOLOGIES IMPLEMENTED
+
+<table width="1000" style="width: 100% !important; border-collapse: collapse; border: none !important;">
+  <tbody>
+    <tr style="margin: 0 30px 0 30px; text-align: center;">
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Php.svg" alt="i18next" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">PHP<br />8.1.11</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/MySQL.svg" alt="d3-js" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">MySQL<br />8.0</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Axios.svg" alt="axios" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">jQuery<br />3.6.0</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Axios.svg" alt="axios" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">Axios<br />0.27.2</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Axios.svg" alt="axios" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">AOS<br />2.3.4 </div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+      </td>
+    </tr>
+    <tr style="margin: 0 30px 0 30px; text-align: center;">
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Bootstrap.svg" alt="javascript" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">Bootstrap<br />5.1</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/FontAwesome.svg" alt="javascript" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">FontAwesome<br />6.1</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Sass.svg" alt="javascript" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">Sass<br />1.53</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/HTML5.svg" alt="html5" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">HTML<br />5</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/CSS3.svg" alt="css3" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">CSS<br />3</div>
+      </td>
+      <td align="center" style="padding: 30px 20px; border: none;">
+        <img src="./src/assets/logos/Javascript.svg" alt="javascript" height="48" />
+        <div style="font-size: 1.2rem; font-weight: bold;">Javascript<br />ES6</div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <h2>Snapshots</h2>
 <div class="snapshots">
   <a href="./snapshots/01 - FeedMyMind - Accueil.png" target="_blank"><img src="./snapshots/01 - FeedMyMind - Accueil.png" alt="FeedMyMind - Accueil" /></a><br /><br />
