@@ -33,28 +33,28 @@
       <td align="center" style="padding: 30px 20px; border: none;">
       </td>
     </tr>
-    <tr style="margin: 0 30px 0 30px; text-align: center;">
-      <td align="center" style="padding: 30px 20px; border: none;">
+    <tr style="margin: 0 30px 0 30px; text-align: center; background-color: transparent !important;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/Bootstrap.svg" alt="javascript" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">Bootstrap<br />5.1</div>
       </td>
-      <td align="center" style="padding: 30px 20px; border: none;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/FontAwesome.svg" alt="javascript" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">FontAwesome<br />6.1</div>
       </td>
-      <td align="center" style="padding: 30px 20px; border: none;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/Sass.svg" alt="javascript" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">Sass<br />1.53</div>
       </td>
-      <td align="center" style="padding: 30px 20px; border: none;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/HTML5.svg" alt="html5" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">HTML<br />5</div>
       </td>
-      <td align="center" style="padding: 30px 20px; border: none;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/CSS3.svg" alt="css3" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">CSS<br />3</div>
       </td>
-      <td align="center" style="padding: 30px 20px; border: none;">
+      <td align="center" style="padding: 30px 20px; border: none !important;">
         <img src="./images/logos/Javascript.svg" alt="javascript" height="48" />
         <div style="font-size: 1.2rem; font-weight: bold;">Javascript<br />ES6</div>
       </td>
