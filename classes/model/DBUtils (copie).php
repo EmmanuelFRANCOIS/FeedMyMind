@@ -15,7 +15,7 @@ class DBUtils {
    */
   public static function getDBConnection() {
 
-    $servername = "localhost";  // nom du serveur
+    $servername = "server849";  // nom du serveur
     $username   = "u742039167_feedmymind";       // nom d'utilisateur de mysql
     $password   = "d9h8ZSa6GhF";        // mot de passe mysql
     $dbname     = "u742039167_feedmymind";   // nom de la base
